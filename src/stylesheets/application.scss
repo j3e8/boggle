@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+$brand-color: #5291c3;
+$error-color: #c35291;
+
+html,
+body {
+  height: 100%;
+  font-family: 'Raleway', 'sans-serif';
+}
+
+body {
+  background-color: #444;
+  padding: 40px;
+  margin: 0;
+  color: #fff;
+}
+
+input {
+  font-family: 'Raleway', 'sans-serif';
+}
+
+button {
+  display: inline-block;
+  font-size: 24px;
+  padding: 6px 10px;
+  background-color: $brand-color;
+  border: 1px solid $brand-color;
+  color: #444;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', 'sans-serif';
+}
+
+
+@import "./BoggleApp";
+@import "./BoggleBoard";
+@import "./BoggleInput";

@@ -1,0 +1,33 @@
+.boggle-app {
+  width: 850px;
+  margin: 30px auto;
+
+  .score {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .main {
+    display: flex;
+
+    .left {
+      flex: 0 0 auto;
+    }
+    .right {
+      flex: 0 0 auto;
+      margin-left: 50px;
+    }
+  }
+
+  .game-state {
+    margin-top: 30px;
+    font-size: 40px;
+    color: $brand-color;
+    text-align: center;
+
+    button {
+      margin-left: 6px;
+    }
+  }
+}
